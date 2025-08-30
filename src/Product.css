@@ -1,0 +1,35 @@
+.product-card {
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 12px 16px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 220px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+}
+
+.product-name {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+.product-price {
+    margin: 6px 0;
+    color: #16a085;
+    font-weight: bold;
+}
+
+.product-category {
+    margin: 0;
+    color: #555;
+}
+
+.electronics {
+    background-color: #e6f7ff;
+}
